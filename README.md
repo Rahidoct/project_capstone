@@ -1,6 +1,6 @@
-# Laravel 9 & React js - Cirebon Online Store
+![preview img](/app/public/frontend/img/logo.png)
 
-# Screenshots
+# Demo E-Commerce
 
 <!-- ![preview img](/preview.png) -->
 
