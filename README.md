@@ -1,4 +1,4 @@
-![preview img](/app/public/frontend/img/logo.png)
+![preview img](/public/frontend/img/logo.png)
 
 # Demo E-Commerce
 
