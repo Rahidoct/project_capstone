@@ -1,10 +1,10 @@
 # Laravel 9 & React js - Cirebon Online Store
 
-## Screenshots
+# Screenshots
 
 <!-- ![preview img](/preview.png) -->
 
-## Download Project
+# Download Project
 
 Clone the project
 
@@ -36,11 +36,11 @@ Go to the project directory
     php artisan storage:link
 ```
 
-#### Login
-# Admin
+# Login
+#### Admin
 -   email = admin@mentor.com
 -   password = 123
 
-# Users
+#### Users
 -   email = users@mentor.com
 -   password = 123
