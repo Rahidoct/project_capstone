@@ -4,7 +4,7 @@
 
 <!-- ![preview img](/preview.png) -->
 
-## Run Locally
+## Download Project
 
 Clone the project
 
@@ -15,13 +15,13 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd project-name
+  cd project-capstone
 ```
 
 -  Copy .env.example file to .env and edit database credentials there
 
 ```bash
-  composer install
+    composer install
 ```
 
 ```bash
@@ -37,6 +37,10 @@ Go to the project directory
 ```
 
 #### Login
+# Admin
+-   email = admin@mentor.com
+-   password = 123
 
--   email = admin@example.com
+# Users
+-   email = users@mentor.com
 -   password = 123
