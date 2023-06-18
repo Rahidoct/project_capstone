@@ -1,9 +1,12 @@
 @extends('layouts.admin')
 
 @section('content')
+        <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">Product List</h1>
+        </div>
         <div class="card">
             <div class="card-header">
-                <h3>product List
+                <h3>
                     <a href="{{ route('admin.products.create') }}" class="btn btn-primary float-right">
                         Create
                     </a>
@@ -69,4 +72,5 @@
                     </table>
                 </div>
             </div>
+        </div>
 @endsection

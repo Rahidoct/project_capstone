@@ -38,11 +38,11 @@ const ProductList = () => {
                     return (
                         <div
                             key={product.id}
-                            className="col-lg-3 col-md-4 col-sm-6 mix oranges fresh-meat"
+                            className="col-lg-3 col-md-4 col-sm-6 mix"
                         >
                             <div className="featured__item">
                                 <div
-                                    className="featured__item__pic"
+                                    className="featured__item__pic set-bg"
                                     style={{
                                         backgroundImage: `url(${product.media[0].original_url})`,
                                     }}
@@ -65,6 +65,7 @@ const ProductList = () => {
                                         </li>
                                     </ul>
                                 </div>
+                                
                                 <div className="featured__item__text">
                                     <h6>
                                         <a href={`product/${product.slug}`}>
@@ -75,6 +76,7 @@ const ProductList = () => {
                                 </div>
                             </div>
                         </div>
+
                     );
                 })
             )}

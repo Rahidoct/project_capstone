@@ -125,8 +125,8 @@ const ProductShop = () => {
                                     <div
                                         className="product__item__pic"
                                         style={{
-                                            // backgroundImage: `url(${product.media[0].original_url})`,
-                                            backgroundSize: "cover",
+                                            backgroundImage: `url(${product.media[0].original_url})`,
+                                            // backgroundSize: "cover",
                                         }}
                                     >
                                         <ul className="product__item__pic__hover">

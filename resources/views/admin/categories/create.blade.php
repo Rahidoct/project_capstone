@@ -41,6 +41,7 @@
                     </div>
                 </form>
             </div>
+        </div>
 @endsection
 
 @push('style-alt')

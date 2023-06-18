@@ -15,16 +15,20 @@ class AdminSeeder extends Seeder
      */
     public function run()
     {
-        $admin = [
-                [
-                    'username' => 'admin',
-                    'email' => 'admin@example.com',
-                    'password' => bcrypt('123'),
-                    'is_admin' => true,
-                ]
-            ];
-            
-        User::insert($admin);
+    
+        $user = new User();
+        $user->username = 'Ala Rai Abdiallah';
+        $user->email = 'admin@mentor.com';
+        $user->password = bcrypt('123');
+        $user->is_admin = true;
+        $user->save();
+
+        $user = new User();
+        $user->username = 'Abiyyu Daffa Alam';
+        $user->email = 'users@mentor.com';
+        $user->password = bcrypt('123');
+        $user->is_admin = false;
+        $user->save();
 
     }
 }

@@ -135,7 +135,7 @@
                                                     </div>
                                                 @empty
                                                     <div class="col-lg-3 col-md-4 col-sm-6">
-                                                        <span class="badge badge-danger">no image</span>
+                                                        <img src="{{ asset('frontend/img/product/no-image.png') }}" alt="Product Image" class="img-fluid">
                                                     </div>
                                                 @endforelse
                                                 <div class="col ml-2">
@@ -165,7 +165,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2021</span>
+                        <span>Copyright &copy; Cirebon Online Store</span>
                     </div>
                 </div>
             </footer>

@@ -1,9 +1,12 @@
 @extends('layouts.admin')
 
 @section('content')
+        <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">Category List</h1>
+        </div>
         <div class="card">
             <div class="card-header">
-                <h3>Category List
+                <h3>
                     <a href="{{ route('admin.categories.create') }}" class="btn btn-primary float-right">
                         Create
                     </a>
@@ -11,22 +14,22 @@
             </div>
             <div class="card-body">
                 <div class="table-responsive">
-                    <table class="table table-bordered">
+                    <table class="table table-hover">
                         <thead>
                             <tr>
-                                <th>No</th>
-                                <th>Name</th>
-                                <th>Slug</th>
-                                <th>Product Count</th>
-                                <th>Image</th>
-                                <th>Parent</th>
-                                <th>Action</th>
+                                <th scope="col">No</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Slug</th>
+                                <th scope="col">Product Count</th>
+                                <th scope="col">Image</th>
+                                <th scope="col">Parent</th>
+                                <th scope="col">Action</th>
                             </tr>
                         </thead>
                         <tbody>
                             @foreach($categories as $category)
                                 <tr>
-                                    <td>{{ $loop->iteration }}</td>
+                                    <th scope="col">{{ $loop->iteration }}</th>
                                     <td>{{ $category->name }}</td>
                                     <td>{{ $category->slug }}</td>
                                     <td>{{ $category->products_count }}</td>
@@ -58,4 +61,5 @@
                     </table>
                 </div>
             </div>
+        </div>
 @endsection

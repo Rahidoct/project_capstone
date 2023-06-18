@@ -41,7 +41,7 @@
       <div class="humberger__menu__cart">
         <ul>
           <li>
-            <a href="#"><i class="fa fa-heart"></i> <span>1</span></a>
+            <a href="#"><i class="fa fa-heart"></i> <span>0</span></a>
           </li>
           <li>
             <a href="#"><i class="fa fa-shopping-bag"></i> <span>{{ $cartCount }}</span></a>
@@ -81,7 +81,7 @@
       <nav class="humberger__menu__nav mobile-menu">
         <ul>
           <li class="active"><a href="/">Home</a></li>
-          <li><a href="{{ route('shop.index') }}">Shop</a></li>
+          <li><a href="{{ route('shop.index') }}">Products</a></li>
           <li>
             <a href="#">Categories</a>
             <ul class="header__menu__dropdown">
@@ -202,7 +202,7 @@
             <nav class="header__menu">
               <ul>
                 <li class="active"><a href="/">Home</a></li>
-                <li><a href="{{ route('shop.index') }}">Shop</a></li>
+                <li><a href="{{ route('shop.index') }}">Products</a></li>
                 <li>
                   <a href="#">Categories</a>
                   <ul class="header__menu__dropdown">
@@ -219,7 +219,7 @@
             <div class="header__cart">
               <ul>
                 <li>
-                  <a href="#"><i class="fa fa-heart"></i> <span>1</span></a>
+                  <a href="#"><i class="fa fa-heart"></i> <span>0</span></a>
                 </li>
                 <li>
                   <a href="{{ route('cart.index') }}"

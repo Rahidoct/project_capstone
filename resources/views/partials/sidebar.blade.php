@@ -59,10 +59,17 @@
 
             <!-- Nav Item - Role -->
             <li class="nav-item">
-                <a class="nav-link" href="charts.html">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseRole"
+                    aria-expanded="true" aria-controls="collapseRole">
                     <i class="fas fa-users-cog"></i>
-                    <span>Role Master</span>
+                    <span>Management Users</span>
                 </a>
+                <div id="collapseRole" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="{{ route('admin.categories.index') }}">Add Admin</a>
+                        <a class="collapse-item" href="{{ route('admin.tags.index') }}">Role Master</a>
+                    </div>
+                </div>
             </li>
 
             <!-- Nav Item - Shopping -->
