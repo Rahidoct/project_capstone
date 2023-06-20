@@ -176,7 +176,7 @@ const Checkout = () => {
                                         setProvinceId(e.target.value)
                                     }
                                 >
-                                    <option value="">=== Choose ===</option>
+                                    <option value="">-- Pilih Provinsi --</option>
                                     {provinces.map((province, index) => {
                                         return (
                                             <option
@@ -199,7 +199,7 @@ const Checkout = () => {
                                     value={city}
                                     onChange={(e) => setCityId(e.target.value)}
                                 >
-                                    <option value="">=== Choose ===</option>
+                                    <option value="">-- Pilih Kota --</option>
                                     {Object.entries(cities).map(
                                         (city, index) => {
                                             return (
@@ -225,7 +225,7 @@ const Checkout = () => {
                                         setShippingCostId(e.target.value)
                                     }
                                 >
-                                    <option value="">=== Choose ===</option>
+                                    <option value="">-- Jasa Pengirim --</option>
                                     {services.map((service, index) => {
                                         return (
                                             <option
